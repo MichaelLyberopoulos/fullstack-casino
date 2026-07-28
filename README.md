@@ -2,6 +2,12 @@
 
 A production-style casino platform: game lobby with backend search, JWT authentication, a fully persisted slot machine, and a normalized PostgreSQL schema.
 
+**Live demo**
+- Frontend: **https://fullstack-casino.vercel.app**
+- API: **https://fullstack-casino-api.onrender.com/api** (Swagger docs: [/api/docs](https://fullstack-casino-api.onrender.com/api/docs))
+
+> The API runs on Render's free tier, which sleeps after inactivity — the first request after a quiet period can take ~30–60 s while the instance wakes up.
+
 | Layer      | Tech                                                              |
 | ---------- | ----------------------------------------------------------------- |
 | Backend    | **NestJS 11** (TypeScript, strict), Prisma 6, PostgreSQL 16       |
@@ -237,9 +243,17 @@ Interactive documentation: **`http://localhost:4000/api/docs`** (Swagger, suppor
 - **Unit** ([payout.spec.ts](backend/src/spins/slot-engine/payout.spec.ts)): every worked example from the spec, the full payout table, run-must-start-at-reel-1 rules, decimal bet scaling, non-cumulative payouts.
 - **E2E** ([casino.e2e-spec.ts](backend/test/casino.e2e-spec.ts)) — runs against a **real PostgreSQL** container (row locking doesn't exist on mocks): registration (20 coins, email normalization, duplicate → 409), login, 401s on every protected route, deterministic win and loss spins with exact balance assertions, insufficient-balance rejection, off-grid bet rejection, over-cap pagination / unknown-param / over-long-query rejection, currency allowlist, and the **concurrency race** described in Q3 above.
 
-## Deployment notes
+## Deployment
 
-Built deploy-ready for Vercel (frontend) + Render (backend + managed Postgres): configuration is entirely env-driven (`DATABASE_URL`, `JWT_SECRET`, `CORS_ORIGIN`, `NEXT_PUBLIC_API_URL`), CORS and CSP already parameterized. Deployment itself was out of scope for this stage.
+Deployed as two services from this monorepo:
+
+| Piece | Platform | URL |
+|---|---|---|
+| Frontend (`frontend/`) | Vercel | https://fullstack-casino.vercel.app |
+| API (`backend/`) | Render Web Service | https://fullstack-casino-api.onrender.com/api |
+| PostgreSQL | Render managed Postgres | (internal network URL) |
+
+Configuration is entirely env-driven (`DATABASE_URL`, `JWT_SECRET`, `CORS_ORIGIN`, `NEXT_PUBLIC_API_URL`). The Render start command runs `prisma migrate deploy` and the idempotent seed on every boot, so the schema and the 78-game catalog maintain themselves.
 
 Note: `NEXT_PUBLIC_API_URL` is inlined at **build** time into both the client bundle and the CSP `connect-src` header — set it in the build environment and rebuild the frontend whenever it changes (a runtime-only env change would leave the bundle pointing at the old URL).
 
@@ -247,4 +261,10 @@ Note: `NEXT_PUBLIC_API_URL` is inlined at **build** time into both the client bu
 
 ## Question 8 — AI usage disclosure
 
+AI was used as a development tool under my direction. No code or design decisions were accepted without my review.
+
+* **Design review** – Used to challenge my architecture and implementation plan. I evaluated all suggestions and adopted only those I agreed with (e.g. separate gross/net winnings, trigram indexes, injectable RNG).
+* **Implementation** – Assisted with implementation across modules, working from my specifications. All generated code was reviewed and modified where needed to match my design and the assessment requirements.
+* **Code review** – Used as an additional reviewer to identify potential correctness, security, and performance issues. Every suggestion was verified before being applied.
+* **Testing** – Helped generate parts of the test suite and identify edge cases. I verified all tests and manually validated the final application.
 
