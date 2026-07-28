@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { AppController } from './app.controller';
 import { APP_FILTER, APP_GUARD, APP_INTERCEPTOR } from '@nestjs/core';
 import { CacheModule } from '@nestjs/cache-manager';
 import { ConfigModule } from '@nestjs/config';
@@ -28,6 +29,7 @@ import { LoggingInterceptor } from './common/interceptors/logging.interceptor';
     CurrencyModule,
     ClientConfigModule,
   ],
+  controllers: [AppController],
   providers: [
     { provide: APP_GUARD, useClass: ThrottlerGuard },
     // [Question 3/4] Every route requires a JWT unless marked @Public().
