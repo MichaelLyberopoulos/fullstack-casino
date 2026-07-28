@@ -1,0 +1,34 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: casino_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: casino
+      POSTGRES_PASSWORD: casino_dev_password
+      POSTGRES_DB: casino
+    ports:
+      - "5432:5432"
+    volumes:
+      - casino_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U casino -d casino"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # Separate database for e2e / concurrency tests (real Postgres, disposable)
+  postgres_test:
+    image: postgres:16-alpine
+    container_name: casino_postgres_test
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: casino
+      POSTGRES_PASSWORD: casino_test_password
+      POSTGRES_DB: casino_test
+    ports:
+      - "5433:5432"
+    volumes: []
+
+volumes:
+  casino_pgdata:

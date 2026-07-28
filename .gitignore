@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment files — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Prisma generated client / local artifacts
+backend/generated/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

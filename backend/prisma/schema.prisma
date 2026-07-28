@@ -1,0 +1,117 @@
+// Prisma schema — full casino platform design (Question 7).
+// Money columns are Decimal(12,2); all monetary arithmetic uses Decimal, never JS floats.
+// Additional raw-SQL constraints/indexes (pg_trgm, CHECK constraints) live in the migrations.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique // stored lowercased/trimmed
+  username     String   @unique
+  passwordHash String
+  balance      Decimal  @default(20.00) @db.Decimal(12, 2) // every new user starts with 20 coins
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  favoriteGame UserFavoriteGame?
+  spins        SpinHistory[]
+}
+
+// "A casino contains multiple games."
+model Casino {
+  id        Int      @id @default(autoincrement())
+  name      String
+  createdAt DateTime @default(now())
+
+  games Game[]
+}
+
+model Country {
+  id      Int    @id @default(autoincrement())
+  isoCode String @unique @db.VarChar(2)
+  name    String
+
+  games GameCountry[]
+}
+
+// Each game has exactly one type.
+model GameType {
+  id   Int    @id @default(autoincrement())
+  name String @unique
+
+  games Game[]
+}
+
+model Game {
+  id           Int    @id @default(autoincrement())
+  externalId   Int    @unique // preserves the id supplied in game-data.json
+  slug         String @unique
+  title        String
+  providerName String
+  thumbUrl     String
+
+  gameTypeId Int
+  gameType   GameType @relation(fields: [gameTypeId], references: [id])
+  casinoId   Int
+  casino     Casino   @relation(fields: [casinoId], references: [id])
+
+  countries   GameCountry[]
+  favoritedBy UserFavoriteGame[]
+  spins       SpinHistory[]
+
+  @@index([gameTypeId])
+  @@index([casinoId])
+}
+
+// M:N — games can be available in multiple countries.
+model GameCountry {
+  gameId    Int
+  countryId Int
+  game      Game    @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  country   Country @relation(fields: [countryId], references: [id], onDelete: Cascade)
+
+  @@id([gameId, countryId])
+  @@index([countryId])
+}
+
+// Users may have (at most) one favorite game — userId is unique.
+model UserFavoriteGame {
+  id        Int      @id @default(autoincrement())
+  userId    Int      @unique
+  gameId    Int
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([gameId])
+}
+
+// Every spin is recorded permanently.
+// netAmount = grossWinnings - betAmount (the "amount won/lost" of the spec);
+// balanceAfter = balanceBefore + netAmount — both enforced by CHECK constraints in migration SQL.
+model SpinHistory {
+  id            String   @id @default(uuid())
+  userId        Int
+  gameId        Int? // "Game ID (if applicable)"
+  reelResults   String[] // e.g. ["cherry", "cherry", "lemon"]
+  betAmount     Decimal  @db.Decimal(12, 2)
+  grossWinnings Decimal  @db.Decimal(12, 2)
+  netAmount     Decimal  @db.Decimal(12, 2)
+  balanceBefore Decimal  @db.Decimal(12, 2)
+  balanceAfter  Decimal  @db.Decimal(12, 2)
+  createdAt     DateTime @default(now())
+
+  user User  @relation(fields: [userId], references: [id])
+  game Game? @relation(fields: [gameId], references: [id])
+
+  @@index([userId, createdAt])
+  @@index([gameId])
+}

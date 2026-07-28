@@ -1,0 +1,704 @@
+[
+  {
+    "id": 9150,
+    "slug": "fire-lightning",
+    "title": "Fire Lightning",
+    "providerName": "BGaming",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/bgaming/1765555811305_FireLightning_bgaming.webp"
+    }
+  },
+  {
+    "id": 8245,
+    "slug": "bamboo-wilds",
+    "title": "Bamboo Wilds",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/bamboo-wilds.webp"
+    }
+  },
+  {
+    "id": 8275,
+    "slug": "diamond-riches",
+    "title": "Diamond Riches",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/diamond-riches.webp"
+    }
+  },
+  {
+    "id": 8222,
+    "slug": "ronaldinho-spins",
+    "title": "Ronaldinho Spins",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/ronaldinho-spins.webp"
+    }
+  },
+  {
+    "id": 8210,
+    "slug": "coin-crusher-hold-and-win",
+    "title": "Coin Crusher Hold And Win",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/coin-crusher-hold-and-win.webp"
+    }
+  },
+  {
+    "id": 5606,
+    "slug": "green-chilli",
+    "title": "Green-Chilli",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561582089_green-chilli.webp"
+    }
+  },
+  {
+    "id": 8220,
+    "slug": "tnt-bonanza-2",
+    "title": "TNT Bonanza-2",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/tnt-bonanza-2.webp"
+    }
+  },
+  {
+    "id": 8225,
+    "slug": "gold-gold-gold-5000",
+    "title": "Gold Gold Gold 5000",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1752054691751_Goldgoldgold5000_Booming_1_5x.webp"
+    }
+  },
+  {
+    "id": 8215,
+    "slug": "howling-for-gold",
+    "title": "Howling For Gold",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/howling-for-gold.webp"
+    }
+  },
+  {
+    "id": 8272,
+    "slug": "wild-wild-vegas",
+    "title": "Wild Wild Vegas",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/wild-wild-vegas.webp"
+    }
+  },
+  {
+    "id": 8246,
+    "slug": "classic-fantastic",
+    "title": "Classic Fantastic",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/classic-fantastic.webp"
+    }
+  },
+  {
+    "id": 8254,
+    "slug": "tnt-bonanza",
+    "title": "TNT Bonanza",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/tnt-bonanza.webp"
+    }
+  },
+  {
+    "id": 8233,
+    "slug": "boogie-boom",
+    "title": "Boogie Boom",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/boogie-boom.webp"
+    }
+  },
+  {
+    "id": 8274,
+    "slug": "buffalo-hold-and-win",
+    "title": "Buffalo: Hold And Win",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1756472580586_buffalo-hold-and-win.webp"
+    }
+  },
+  {
+    "id": 6902,
+    "slug": "halloween-81",
+    "title": "Halloween 81",
+    "providerName": "Playbro",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playbro/1760692314447_halloween-81.webp"
+    }
+  },
+  {
+    "id": 8250,
+    "slug": "power-of-olympus",
+    "title": "Power Of Olympus",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1764840960768_bb.webp"
+    }
+  },
+  {
+    "id": 8324,
+    "slug": "777-fruity-coins",
+    "title": "777 Fruity Coins",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1765554961479_777fruitycoins_3oaksgaming.webp"
+    }
+  },
+  {
+    "id": 9249,
+    "slug": "4-african-drums",
+    "title": "4 African Drums",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1762875636023_3-african-drums.webp"
+    }
+  },
+  {
+    "id": 9251,
+    "slug": "egypt-fire-2",
+    "title": "Egypt Fire 2",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1762874902205_1761568148215_EgyptFire2_3OaksGaming.webp"
+    }
+  },
+  {
+    "id": 9250,
+    "slug": "lava-coins-2",
+    "title": "Lava Coins 2",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1765555020342_LavaCoinsHoldAndWin_3OaksGaming.webp"
+    }
+  },
+  {
+    "id": 5543,
+    "slug": "3-clover-pots",
+    "title": "3 Clover Pots",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561587342_3-clover-pots.webp"
+    }
+  },
+  {
+    "id": 8206,
+    "slug": "inferno-fortune-power-hit",
+    "title": "Inferno Fortune Power Hit",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1774431717797_infernofortunepowerhit_boominggames.webp"
+    }
+  },
+  {
+    "id": 5558,
+    "slug": "gold-nuggets",
+    "title": "Gold Nuggets",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561589657_gold-nuggets.webp"
+    }
+  },
+  {
+    "id": 5568,
+    "slug": "green-chilli-2",
+    "title": "Green Chilli 2",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561584545_green-chilli-2.webp"
+    }
+  },
+  {
+    "id": 8322,
+    "slug": "amazonia-wins",
+    "title": "Amazonia Wins",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754907491307_1754559711685_amazonia-wins.webp"
+    }
+  },
+  {
+    "id": 8204,
+    "slug": "power-of-atlantis-trio",
+    "title": "Power Of Atlantis Trio",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1774431688395_powerofatlantistrio_boominggames.webp"
+    }
+  },
+  {
+    "id": 5597,
+    "slug": "egypt-fire",
+    "title": "Egypt Fire",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561592212_egypt-fire.webp"
+    }
+  },
+  {
+    "id": 5596,
+    "slug": "more-magic-apple",
+    "title": "More Magic Apple",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561598123_more-magic-apple.webp"
+    }
+  },
+  {
+    "id": 5592,
+    "slug": "lady-fortune",
+    "title": "Lady Fortune",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561600435_lady-fortune.webp"
+    }
+  },
+  {
+    "id": 5608,
+    "slug": "aztec-fire",
+    "title": "Aztec Fire",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561605567_aztec-fire.webp"
+    }
+  },
+  {
+    "id": 5601,
+    "slug": "dragon-wealth",
+    "title": "Dragon Wealth",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561608326_dragon-wealth.webp"
+    }
+  },
+  {
+    "id": 5611,
+    "slug": "dragon-pearls",
+    "title": "Dragon Pearls",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561610873_dragon-pearls.webp"
+    }
+  },
+  {
+    "id": 5605,
+    "slug": "hit-more-gold",
+    "title": "Hit More Gold!",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561615946_hit-more-gold.webp"
+    }
+  },
+  {
+    "id": 5620,
+    "slug": "moon-sisters",
+    "title": "Moon Sisters",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561618697_moon-sisters.webp"
+    }
+  },
+  {
+    "id": 5627,
+    "slug": "15-dragon-pearls",
+    "title": "15 Dragon Pearls",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561603216_15-dragon-pearls.webp"
+    }
+  },
+  {
+    "id": 5658,
+    "slug": "queen-of-the-sun",
+    "title": "Queen Of The Sun",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754907636563_queen-of-the-sun.webp"
+    }
+  },
+  {
+    "id": 5642,
+    "slug": "hit-the-gold",
+    "title": "Hit The Gold!",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561626796_hit-the-gold.webp"
+    }
+  },
+  {
+    "id": 5646,
+    "slug": "3-coins-egypt",
+    "title": "3 Coins: Egypt",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561624175_3-coins-egypt.webp"
+    }
+  },
+  {
+    "id": 8283,
+    "slug": "3-jewel-crowns",
+    "title": "3 Jewel Crowns",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754907385252_3-jewel-crowns.webp"
+    }
+  },
+  {
+    "id": 8277,
+    "slug": "cash-pig",
+    "title": "Cash Pig",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/cash-pig.webp"
+    }
+  },
+  {
+    "id": 5595,
+    "slug": "grab-the-gold",
+    "title": "Grab The Gold!",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561629352_grab-the-gold.webp"
+    }
+  },
+  {
+    "id": 8208,
+    "slug": "easter-classics",
+    "title": "Easter Classics",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/easter-classics.webp"
+    }
+  },
+  {
+    "id": 8229,
+    "slug": "diamond-hits",
+    "title": "Diamond Hits",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1759147218305_diamond-hits.webp"
+    }
+  },
+  {
+    "id": 2126,
+    "slug": "astro-wild",
+    "title": "Astro Wild",
+    "providerName": "Caleta Gaming",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/caleta-gaming/1764336368368_astro.webp"
+    }
+  },
+  {
+    "id": 8271,
+    "slug": "greek-legends",
+    "title": "Greek Legends",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1774432012803_greeklegends_boominggames.webp"
+    }
+  },
+  {
+    "id": 5809,
+    "slug": "legend-of-cleopatra",
+    "title": "Legend Of Cleopatra",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1765555087784_LegendofCleopatra_Playson.webp"
+    }
+  },
+  {
+    "id": 8231,
+    "slug": "bang-bang-reloaded",
+    "title": "Bang Bang Reloaded",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/bang-bang-reloaded.webp"
+    }
+  },
+  {
+    "id": 8262,
+    "slug": "gamblelicious-hold-and-win",
+    "title": "Gamblelicious Hold And Win",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/gamblelicious-hold-and-win.webp"
+    }
+  },
+  {
+    "id": 5816,
+    "slug": "buffalo-power-megaways",
+    "title": "Buffalo Power Megaways",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1764840867365_aa(2).webp"
+    }
+  },
+  {
+    "id": 6663,
+    "slug": "3-hungry-pandas",
+    "title": "3 Hungry Pandas",
+    "providerName": "Kendoo",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/kendoo/1770631815553_1760010710572_3HungryPandas_Kendoo.webp"
+    }
+  },
+  {
+    "id": 8305,
+    "slug": "burning-classics-5000",
+    "title": "Burning Classics 5000",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/burning-classics-5000.webp"
+    }
+  },
+  {
+    "id": 8307,
+    "slug": "fish-tales-double-catch",
+    "title": "Fish Tales Double Catch",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/fish-tales-double-catch.webp"
+    }
+  },
+  {
+    "id": 5522,
+    "slug": "777-fruity-classic",
+    "title": "777 Fruity Classic",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561631923_777-fruity-classic.webp"
+    }
+  },
+  {
+    "id": 5562,
+    "slug": "african-spirit-sticky-wilds",
+    "title": "African Spirit Sticky Wilds",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561594894_african-spirit-sticky-wilds.webp"
+    }
+  },
+  {
+    "id": 8201,
+    "slug": "burning-love",
+    "title": "Burning Love",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1770914837379_burning-love.webp"
+    }
+  },
+  {
+    "id": 5036,
+    "slug": "solar-queen",
+    "title": "Solar Queen",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1765555926404_solarqueen_Playson.webp"
+    }
+  },
+  {
+    "id": 5769,
+    "slug": "burning-fortunator",
+    "title": "Burning Fortunator",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1763025003508_1752849153942_BurningFortunator_Playson_1_5x.webp"
+    }
+  },
+  {
+    "id": 8219,
+    "slug": "64-gold-coins-hold-and-win",
+    "title": "64 Gold Coins Hold And Win",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/64-gold-coins-hold-and-win.webp"
+    }
+  },
+  {
+    "id": 8306,
+    "slug": "forbidden-temple-power-hit",
+    "title": "Forbidden Temple Power Hit",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/forbidden-temple-power-hit.webp"
+    }
+  },
+  {
+    "id": 5810,
+    "slug": "joker-expand-5-lines",
+    "title": "Joker Expand: 5 Lines",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1765555148322_jokerexpand_5Lines_Playson.webp"
+    }
+  },
+  {
+    "id": 5770,
+    "slug": "wolf-power-megaways",
+    "title": "Wolf Power Megaways",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1765555179506_wolfpowermegaways_Playson.webp"
+    }
+  },
+  {
+    "id": 8649,
+    "slug": "booming-seven-deluxe-legacy",
+    "title": "Booming Seven Deluxe Legacy",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1754907204659_booming-seven-deluxe-legacy.webp"
+    }
+  },
+  {
+    "id": 9338,
+    "slug": "diamonds-power-xxl-hold-and-win",
+    "title": "Diamonds Power XXL: Hold And Win",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1770980741216_1763988904645_DiamondsPowerXXL_HoldandWin_Playson_1x.webp"
+    }
+  },
+  {
+    "id": 5759,
+    "slug": "pirate-chest-hold-and-win",
+    "title": "Pirate Chest: Hold And Win",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1765555206101_PearlOcean_Hold&Win_Playson.webp"
+    }
+  },
+  {
+    "id": 9154,
+    "slug": "rockin-joker-hold-and-win",
+    "title": "Rockin' Joker: Hold And Win",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1756988033230_1755782033516_Rockin_Joker_HoldAndWin_Playson.webp"
+    }
+  },
+  {
+    "id": 9155,
+    "slug": "lucky-penny-2",
+    "title": "Lucky Penny 2",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1762875554420_1756890205705_LuckyPenny2_3OaksGaming.webp"
+    }
+  },
+  {
+    "id": 9815,
+    "slug": "cherrypop88",
+    "title": "CherryPop88",
+    "providerName": "AvatarUX88",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/avatarux88/1771587839056_1758712593576_CherryPopBurst_AvatarUX.webp"
+    }
+  },
+  {
+    "id": 4983,
+    "slug": "basketball-pro",
+    "title": "Basketball Pro",
+    "providerName": "Caleta Gaming",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/caleta-gaming/1771593175672_basketball-pro.png"
+    }
+  },
+  {
+    "id": 9205,
+    "slug": "burning-classics-2",
+    "title": "Burning Classics 2",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/1774431587740_burningclassics_boominggames.webp"
+    }
+  },
+  {
+    "id": 5773,
+    "slug": "buffalo-power-christmas",
+    "title": "Buffalo Power Christmas",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1764946442571_aaaaaacc.webp"
+    }
+  },
+  {
+    "id": 9228,
+    "slug": "sun-of-egypt-5",
+    "title": "Sun Of Egypt 5",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1762874868143_1759417801023_SunOfEgypt5_3OaksGaming.webp"
+    }
+  },
+  {
+    "id": 8203,
+    "slug": "cash-pig-2",
+    "title": "Cash Pig 2",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/cash-pig-2.webp"
+    }
+  },
+  {
+    "id": 8266,
+    "slug": "flaming-chillies",
+    "title": "Flaming Chillies",
+    "providerName": "Booming Games",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/booming/flaming-chillies.webp"
+    }
+  },
+  {
+    "id": 5651,
+    "slug": "gold-express",
+    "title": "Gold Express",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561634615_gold-express.webp"
+    }
+  },
+  {
+    "id": 5616,
+    "slug": "777-gems-respin",
+    "title": "777 Gems Respin",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561637214_777-gems-respin.webp"
+    }
+  },
+  {
+    "id": 5777,
+    "slug": "eagle-power-hold-and-win",
+    "title": "Eagle Power: Hold And Win",
+    "providerName": "Playson",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/playson/1765555114868_Eaglepower_Hold&Win_Playson.webp"
+    }
+  },
+  {
+    "id": 5661,
+    "slug": "sun-of-egypt-3",
+    "title": "Sun Of Egypt 3",
+    "providerName": "Three Oaks",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/threeoaks/1754561639570_sun-of-egypt-3.webp"
+    }
+  },
+  {
+    "id": 2035,
+    "slug": "its-sharktime",
+    "title": "SharkTime",
+    "providerName": "ElaGames",
+    "thumb": {
+      "url": "https://assets-sandbox.goodvibescasino.com/elagames/1764081892913_its-sharktime.webp"
+    }
+  }
+]
